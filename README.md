@@ -56,7 +56,7 @@ After transformation, we have a dataset with 25 classifications, each class have
 
 In our CNN model, the learning rate is set to be 0.0005. Batch size is 100 to because it's suitable for the large dataset with 70,000*25 images. We used accuracy, F1 score, confusion matrices as metrics for prediction results. I used 10 epoch to train the CNN model. The loss function is cross entropy.
 
-
+This model is trained on SJTU pi2.0 HPC clusters using NVIDIA DGX-2 V100 GPU.
 
 ## Results
 
