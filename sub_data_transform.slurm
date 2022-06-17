@@ -7,6 +7,7 @@
 #SBATCH --output=task_file/%x_%j.out
 #SBATCH --error=task_file/%x_%j.err
 
-
+module load miniconda3
+source activate svg2png
 python data_transform.py
 

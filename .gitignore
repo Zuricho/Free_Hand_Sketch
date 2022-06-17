@@ -3,3 +3,8 @@ __pycache__/
 dataset/*.npz
 dataset_pixel/*/*/*.png
 dataset_pixel/*/*/*.svg
+dataset/*
+dataset_pixel/*
+task_file/*.err
+task_file/*.out
+

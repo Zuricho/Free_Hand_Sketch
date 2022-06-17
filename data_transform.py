@@ -90,8 +90,8 @@ if __name__ == '__main__':
     npz_file_list = os.listdir(npz_file_location)
     class_list = [npz_file_name.split('.')[0][10:] for npz_file_name in npz_file_list]
     # or chose one of them (annotate this to skip)
-    npz_file_list = [npz_file_list[0]]
-    class_list = [class_list[0]]
+    npz_file_list = ["sketchrnn_rhinoceros.npz"]
+    class_list = ["rhinoceros"]
 
 
     for npz_file_name, class_name in zip(npz_file_list, class_list):
