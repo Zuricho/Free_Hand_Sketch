@@ -1,10 +1,10 @@
 __pycache__/
 .DS_Store
 dataset/*.npz
-dataset_pixel/*/*/*.png
-dataset_pixel/*/*/*.svg
 dataset/*
 dataset_pixel/*
+dataset_svg/*
+dataset.tar
 task_file/*.err
 task_file/*.out
 
