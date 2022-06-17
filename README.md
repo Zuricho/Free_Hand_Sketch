@@ -45,11 +45,17 @@ Our 2 baseline models are built with `scikit-learn`.
 
 ### Dataset
 
-Dataset has 25 classifications, each image is classified into 1 of the 25 classifications. Each pixel image is 28*28 large unless have specific setting.
+Dataset has 25 classifications, each image is classified into 1 of the 25 classifications. Each pixel image is 28*28 large unless have specific setting. We transformed the dataset from svg information to png images by written script `data_transformation.py`. Due to the huge amount of data to be transformed, I used SJTU Siyuan HPC cluster for task parallelization. 
+
+After transformation, we have a dataset with 25 classifications, each class have a training set, a test set and a validation set. Each class's training set has 70,000 28\*28 images, test set has 2,500 28\*28 images and validation set has 2,500 28*28 images.
 
 ### Training setting
 
 
+
+
+
+## Results
 
 
 
